@@ -23,7 +23,7 @@ import { Button, Container } from "reactstrap";
 
 // core components
 
-function LandingPageHeader() {
+function HomeHeader() {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -45,7 +45,7 @@ function LandingPageHeader() {
       <div
         style={{
           backgroundImage:
-            "url(" + require("assets/img/daniel-olahh.jpg").default + ")",
+            "url(" + require("assets/img/w1.jpg").default + ")",
         }}
         className="page-header"
         data-parallax={true}
@@ -54,8 +54,12 @@ function LandingPageHeader() {
         <div className="filter" />
         <Container>
           <div className="motto text-center">
-            <h1>Termoformados Campos</h1>
-            <h3>Termoformamos Sus ideas</h3>
+            <img
+                  alt="Termoformados Campos"
+                  className="img-logo img-no-padding img-responsive"
+                  src={require("assets/img/termocampos.png").default}
+                />
+            <h2>Termoformamos Sus ideas</h2>
             <br />
             <Button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -65,10 +69,10 @@ function LandingPageHeader() {
               outline
             >
               <i className="fa fa-play" />
-              Watch video
+              Ver video
             </Button>
             <Button className="btn-round" color="neutral" type="button" outline>
-              Download
+              Conozcanos
             </Button>
           </div>
         </Container>
@@ -77,4 +81,4 @@ function LandingPageHeader() {
   );
 }
 
-export default LandingPageHeader;
+export default HomeHeader;
