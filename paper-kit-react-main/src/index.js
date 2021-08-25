@@ -32,6 +32,7 @@ import ProfilePage from "views/examples/ProfilePage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import Home from "views/Home.js";
 import OurCompany from "views/pages/OurCompany.js";
+import Contact from "views/pages/Contact.js";
 // others
 
 ReactDOM.render(
@@ -57,6 +58,10 @@ ReactDOM.render(
       <Route
         path="/nosotros"
         render={(props) => <OurCompany {...props} />}
+      />
+      <Route
+        path="/contacto"
+        render={(props) => <Contact {...props} />}
       />
       <Route
         path="/profile-page"

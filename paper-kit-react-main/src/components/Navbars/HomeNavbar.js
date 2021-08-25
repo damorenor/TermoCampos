@@ -73,7 +73,7 @@ function HomeNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            to="/index"
+            to="/home"
             target=""
             title="Termoformamos sus ideas"
             tag={Link}
@@ -104,17 +104,14 @@ function HomeNavbar() {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-examples-navbar"
-                target="_blank"
-              >
+              <NavLink to="/nosotros" tag={Link}>
                 <i className="nc-icon nc-badge" /> Nosotros
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://twitter.com/CreativeTim?ref=creativetim"
+                href="https://wa.me/573043351269"
                 target="_blank"
                 title="Escribenos en Whatsapp!"
               >
@@ -148,8 +145,8 @@ function HomeNavbar() {
               <Button
                 className="btn-round"
                 color="danger"
-                href="https://www.creative-tim.com/product/paper-kit-pro-react?ref=pkr-examples-navbar"
-                target="_blank"
+                to="/contacto"
+                tag={Link}
               >
                 <i className="nc-icon nc-tap-01"></i> Contactenos
               </Button>
