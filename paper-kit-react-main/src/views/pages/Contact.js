@@ -54,13 +54,17 @@ function Contact() {
           <div className="owner">
             <div className="name">
               <h2 className="title">
-                Contacto <br />
+                Contáctenos <br />
               </h2>
             </div>
           </div>
           <Row>
-            <Col className="ml-auto mr-auto " md="6">
-              <h6 className="description">¿Quienes somos?</h6>
+            <Col className="ml-auto mr-auto " md="4">
+              <h5 className="description">Comuniquese con nosotros</h5>
+              <h6 className="description">Teléfono:</h6> <p>277 8995</p>
+              <h6 className="description">Celular:</h6> <p>+57 304 3351269</p>
+              <h6 className="description">Dirección:</h6> <p>Calle 42D Sur # 79F - 21</p>
+              <br/>
               <p>
                 An artist of considerable range, Jane Faker — the name taken by
                 Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
@@ -68,6 +72,9 @@ function Contact() {
                 feel with a solid groove structure.
               </p>
               <br />
+            </Col>
+            <Col className="ml-auto mr-auto" md="4">
+              
             </Col>
           </Row>
           <br />

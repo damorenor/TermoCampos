@@ -33,6 +33,7 @@ import RegisterPage from "views/examples/RegisterPage.js";
 import Home from "views/Home.js";
 import OurCompany from "views/pages/OurCompany.js";
 import Contact from "views/pages/Contact.js";
+import Services from "views/pages/Services.js";
 // others
 
 ReactDOM.render(
@@ -53,7 +54,7 @@ ReactDOM.render(
       />
       <Route
         path="/servicios"
-        render={(props) => <Home {...props} />}
+        render={(props) => <Services {...props} />}
       />
       <Route
         path="/nosotros"

@@ -99,7 +99,7 @@ function HomeNavbar() {
         >
           <Nav navbar>
             <NavItem>
-              <NavLink to="/index" tag={Link}>
+              <NavLink to="/servicios" tag={Link}>
                 <i className="nc-icon nc-settings" /> Servicios
               </NavLink>
             </NavItem>

@@ -31,10 +31,9 @@ function DemoFooter() {
             <ul>
               <li>
                 <a
-                  href="https://www.creative-tim.com?ref=pkr-footer"
-                  target="_blank"
+                  href="/home"
                 >
-                  Creative Tim
+                  Termoformados Campos
                 </a>
               </li>
               <li>

@@ -23,7 +23,6 @@ import {
   Button,
   Card,
   CardBody,
-  CardFooter,
   CardTitle,
   Form,
   Input,
@@ -65,26 +64,17 @@ function Home() {
                   farmacéutica, así como servicios de Troquelado.
                 </h5>
                 <br />
-                <Button
-                  className="btn-round"
-                  color="info"
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  Ver Detalles
-                </Button>
+                <HomeCarousel/>
               </Col>
             </Row>
-            <br />
-            <br />
-            <HomeCarousel/>
           </Container>
         </div>
       {/*Let's Talk About Us*/}
         <div className="section section-dark text-center">
           <Container>
-            <h2 className="title">Let's talk about us</h2>
+            <h2 className="title">Experiencia y Calidad</h2>
             <Row>
+              <Col md="2"></Col>
               <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
@@ -101,8 +91,7 @@ function Home() {
                   <CardBody>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Henry Ford</CardTitle>
-                        <h6 className="card-category">Product Manager</h6>
+                        <CardTitle tag="h4">Termoformado</CardTitle>
                       </div>
                     </a>
                     <p className="card-description text-center">
@@ -111,86 +100,6 @@ function Home() {
                       the money that you want without becoming very good at it.
                     </p>
                   </CardBody>
-                  <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-profile card-plain">
-                  <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
-                        alt="..."
-                        src={
-                          require("assets/img/faces/joe-gardner-2.jpg").default
-                        }
-                      />
-                    </a>
-                  </div>
-                  <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <div className="author">
-                        <CardTitle tag="h4">Sophie West</CardTitle>
-                        <h6 className="card-category">Designer</h6>
-                      </div>
-                    </a>
-                    <p className="card-description text-center">
-                      A group becomes a team when each member is sure enough of
-                      himself and his contribution to praise the skill of the
-                      others. No one can whistle a symphony. It takes an
-                      orchestra to play it.
-                    </p>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
-                  </CardFooter>
                 </Card>
               </Col>
               <Col md="4">
@@ -209,8 +118,7 @@ function Home() {
                   <CardBody>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Robert Orben</CardTitle>
-                        <h6 className="card-category">Developer</h6>
+                        <CardTitle tag="h4">Troquelado</CardTitle>
                       </div>
                     </a>
                     <p className="card-description text-center">
@@ -220,33 +128,19 @@ function Home() {
                       it’s deadly.
                     </p>
                   </CardBody>
-                  <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
-                  </CardFooter>
                 </Card>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <Button
+                  className="btn-round"
+                  color="info"
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  Ver Detalles
+                </Button>
               </Col>
             </Row>
           </Container>
