@@ -35,6 +35,7 @@ import {
 import HomeNavbar from "components/Navbars/HomeNavbar.js";
 import PagesHeader from "components/Headers/PagesHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
+import ContactMap from "components/Map/ContactMap";
 
 function Contact() {
 
@@ -61,9 +62,9 @@ function Contact() {
           <Row>
             <Col className="ml-auto mr-auto " md="4">
               <h5 className="description">Comuniquese con nosotros</h5>
-              <h6 className="description">Teléfono:</h6> <p>277 8995</p>
-              <h6 className="description">Celular:</h6> <p>+57 304 3351269</p>
-              <h6 className="description">Dirección:</h6> <p>Calle 42D Sur # 79F - 21</p>
+              <h6 className="description"><i className="fa fa-phone" />Teléfono:</h6> <p>277 8995</p>
+              <h6 className="description"><i className="fa fa-whatsapp" />Celular:</h6> <p>+57 304 3351269</p>
+              <h6 className="description"><i className="nc-icon nc-pin-3" />Dirección:</h6> <p>Calle 42D Sur # 79F - 21</p>
               <br/>
               <p>
                 An artist of considerable range, Jane Faker — the name taken by
@@ -73,9 +74,12 @@ function Contact() {
               </p>
               <br />
             </Col>
-            <Col className="ml-auto mr-auto" md="4">
-              
-            </Col>
+            <ContactMap
+              googleMapURL={"https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyC-RfERI0xnmLXKezFIVs0u7PTvP7vE83c"}
+              containerElement={<Col className="ml-auto mr-auto " md="4"></Col>}
+              mapElement={<div style={{height:'100%'}}/>}
+              loadingElement={<p>Cargando</p>}
+            />
           </Row>
           <br />
         </Container>
@@ -84,7 +88,7 @@ function Contact() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="text-center">Escribanos</h2>
+                <h2 className="text-center">Escriba su inquietud</h2>
                 <Form className="contact-form">
                   <Row>
                     <Col md="6">

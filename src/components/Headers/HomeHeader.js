@@ -71,7 +71,12 @@ function HomeHeader() {
               <i className="fa fa-play" />
               Ver video
             </Button>
-            <Button className="btn-round" color="neutral" type="button" outline>
+            <Button
+              href="/contacto" 
+              className="btn-round"
+              color="neutral" 
+              type="button" 
+              outline>
               Conozcanos
             </Button>
           </div>
