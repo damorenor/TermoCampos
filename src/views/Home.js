@@ -81,7 +81,7 @@ function Home() {
                     <img
                       alt="..."
                       src={
-                        require("assets/img/faces/clem-onojeghuo-3.jpg")
+                        require("assets/img/c1.png")
                           .default
                       }
                     />
@@ -104,7 +104,7 @@ function Home() {
                     <img
                       alt="..."
                       src={
-                        require("assets/img/faces/erik-lucatero-2.jpg")
+                        require("assets/img/c4.png")
                           .default
                       }
                     />

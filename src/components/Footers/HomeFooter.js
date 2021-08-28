@@ -42,23 +42,45 @@ function HomeFooter() {
               </li>
               <li>
                 <a
-                  href="http://blog.creative-tim.com/?ref=pkr-footer"
-                  target="_blank"
+                  href="/contacto"
                 >
-                  Nosotros
+                  Servicios
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.creative-tim.com/license?ref=pkr-footer"
-                  target="_blank"
+                  href="/nosotros"
                 >
-                  Licenses
+                  ¿Quienes somos?
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/contacto"
+                >
+                  Contáctenos
                 </a>
               </li>
             </ul>
           </nav>
-          <div className="credits ml-auto">
+        </Row>
+        <Row>
+          <Col className="mr-auto ml-auto" md="10">
+            <p>Calle 42D Sur # 79F - 21, Bogotá D.C.</p>
+            <p>Teléfono: 3351269</p>
+            <p>Whatsapp: +57 304 33511269</p>
+          </Col>
+
+          <Col className="justify-content-end" md="2">
+            <img
+                alt="..."
+                className="img-footer img-no-padding img-responsive"
+                src={require("assets/img/mainlogo.png").default}
+              />
+          </Col>
+        </Row>
+        <Row>
+          <div className="credits mr-auto ml-auto">
             <span className="copyright">
               © {new Date().getFullYear()}, made with{" "}
               <i className="fa fa-heart heart" /> by Creative Tim

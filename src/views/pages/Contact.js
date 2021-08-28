@@ -64,7 +64,7 @@ function Contact() {
               <h5 className="description">Comuniquese con nosotros</h5>
               <h6 className="description"><i className="fa fa-phone" />Teléfono:</h6> <p>277 8995</p>
               <h6 className="description"><i className="fa fa-whatsapp" />Celular:</h6> <p>+57 304 3351269</p>
-              <h6 className="description"><i className="nc-icon nc-pin-3" />Dirección:</h6> <p>Calle 42D Sur # 79F - 21</p>
+              <h6 className="description"><i className="nc-icon nc-pin-3" />Dirección:</h6> <p>Calle 42D Sur # 79F - 21, Bogotá D.C.</p>
               <br/>
               <p>
                 An artist of considerable range, Jane Faker — the name taken by
