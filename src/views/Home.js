@@ -37,7 +37,7 @@ import {
 // core components
 import HomeNavbar from "components/Navbars/HomeNavbar.js";
 import HomeHeader from "components/Headers/HomeHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import HomeFooter from "components/Footers/HomeFooter.js";
 import HomeCarousel from "views/utilities/HomeCarousel.js";
 
 function Home() {
@@ -78,22 +78,18 @@ function Home() {
               <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
-                        alt="..."
-                        src={
-                          require("assets/img/faces/clem-onojeghuo-3.jpg")
-                            .default
-                        }
-                      />
-                    </a>
+                    <img
+                      alt="..."
+                      src={
+                        require("assets/img/faces/clem-onojeghuo-3.jpg")
+                          .default
+                      }
+                    />
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Termoformado</CardTitle>
                       </div>
-                    </a>
                     <p className="card-description text-center">
                       Teamwork is so important that it is virtually impossible
                       for you to reach the heights of your capabilities or make
@@ -105,22 +101,18 @@ function Home() {
               <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
-                        alt="..."
-                        src={
-                          require("assets/img/faces/erik-lucatero-2.jpg")
-                            .default
-                        }
-                      />
-                    </a>
+                    <img
+                      alt="..."
+                      src={
+                        require("assets/img/faces/erik-lucatero-2.jpg")
+                          .default
+                      }
+                    />
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Troquelado</CardTitle>
                       </div>
-                    </a>
                     <p className="card-description text-center">
                       The strength of the team is each individual member. The
                       strength of each member is the team. If you can laugh
@@ -136,8 +128,8 @@ function Home() {
                 <Button
                   className="btn-round"
                   color="info"
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
+                  href="/servicios"
+                  type="button"
                 >
                   Ver Detalles
                 </Button>
@@ -195,7 +187,7 @@ function Home() {
           </Container>
         </div>
       </div>
-      <DemoFooter />
+      <HomeFooter />
     </>
   );
 }

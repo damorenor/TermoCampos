@@ -28,7 +28,7 @@ import {
 // core components
 import HomeNavbar from "components/Navbars/HomeNavbar.js";
 import PagesHeader from "components/Headers/PagesHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import HomeFooter from "components/Footers/HomeFooter.js";
 
 function Services() {
 
@@ -93,7 +93,7 @@ function Services() {
           </Row>
         </Container>
       </div>
-      <DemoFooter />
+      <HomeFooter />
     </>
   );
 }

@@ -20,9 +20,13 @@
 import React from "react";
 
 // reactstrap components
-import { Row, Container } from "reactstrap";
+import {
+  Col,
+  Row,
+  Container,
+} from "reactstrap";
 
-function DemoFooter() {
+function HomeFooter() {
   return (
     <footer className="footer footer-black footer-white">
       <Container>
@@ -41,7 +45,7 @@ function DemoFooter() {
                   href="http://blog.creative-tim.com/?ref=pkr-footer"
                   target="_blank"
                 >
-                  Blog
+                  Nosotros
                 </a>
               </li>
               <li>
@@ -66,4 +70,4 @@ function DemoFooter() {
   );
 }
 
-export default DemoFooter;
+export default HomeFooter;
