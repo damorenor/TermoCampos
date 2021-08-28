@@ -122,7 +122,7 @@ function HomeNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="https://www.facebook.com/"
                 target="_blank"
                 title="Like us on Facebook"
               >
@@ -133,7 +133,7 @@ function HomeNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                href="https://www.instagram.com/"
                 target="_blank"
                 title="Follow us on Instagram"
               >

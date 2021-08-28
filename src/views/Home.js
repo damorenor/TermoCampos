@@ -81,7 +81,7 @@ function Home() {
                     <img
                       alt="..."
                       src={
-                        require("assets/img/c1.png")
+                        require("assets/img/termo.png")
                           .default
                       }
                     />
@@ -104,7 +104,7 @@ function Home() {
                     <img
                       alt="..."
                       src={
-                        require("assets/img/c4.png")
+                        require("assets/img/troquel.png")
                           .default
                       }
                     />
