@@ -28,50 +28,50 @@ import {
 
 function HomeFooter() {
   return (
-    <footer className="footer footer-black footer-white">
-      <Container>
+    <footer className="footer footer-black">
+      <Container className="container">
         <Row>
-          <nav className="footer-nav">
-            <ul>
-              <li>
-                <a
-                  href="/home"
-                >
-                  Termoformados Campos
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/contacto"
-                >
-                  Servicios
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/nosotros"
-                >
-                  ¿Quienes somos?
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/contacto"
-                >
-                  Contáctenos
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </Row>
-        <Row>
-          <Col className="mr-auto ml-auto" md="10">
+          <Col>
+            <nav className="footer-nav" md="4">
+              <ul className="justify-content-center">
+                <li>
+                  <a
+                    href="/home"
+                  >
+                    Termoformados Campos
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/contacto"
+                  >
+                    Servicios
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/nosotros"
+                  >
+                    ¿Quienes somos?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/contacto"
+                  >
+                    Contáctenos
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </Col>
+          <Col className="mr-auto ml-auto" md="6">
+            <br/>
             <p>Calle 42D Sur # 79F - 21, Bogotá D.C.</p>
             <p>Teléfono: 3351269</p>
             <p>Whatsapp: +57 304 33511269</p>
           </Col>
-
-          <Col className="justify-content-end" md="2">
+          <Col className="justify-content-end mt-5" md="2">
             <img
                 alt="..."
                 className="img-footer img-no-padding img-responsive"
@@ -82,8 +82,7 @@ function HomeFooter() {
         <Row>
           <div className="credits mr-auto ml-auto">
             <span className="copyright">
-              © {new Date().getFullYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Creative Tim
+              {new Date().getFullYear()} Termoformados Campos
             </span>
           </div>
         </Row>

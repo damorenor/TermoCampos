@@ -71,8 +71,7 @@ function Services() {
                 />
             </Col>
           </Row>
-          <br />
-          <Row>
+          <Row className="mt-5">
             <Col className="ml-auto mr-auto" md="6">
               <img
                   alt="..."
