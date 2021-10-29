@@ -57,7 +57,7 @@ function HomeHeader() {
             <img
                   alt="Termoformados Campos"
                   className="img-logo img-no-padding img-responsive"
-                  src={require("assets/img/termocampos.png").default}
+                  src={require("assets/img/termocampos.svg").default}
                 />
             <h2>Termoformamos Sus ideas</h2>
             <br />

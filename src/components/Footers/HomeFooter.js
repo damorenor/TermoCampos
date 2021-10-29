@@ -75,7 +75,7 @@ function HomeFooter() {
             <img
                 alt="..."
                 className="img-footer img-no-padding img-responsive"
-                src={require("assets/img/mainlogo.png").default}
+                src={require("assets/img/mainlogo.svg").default}
               />
           </Col>
         </Row>
