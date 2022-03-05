@@ -41,7 +41,7 @@ function OurCompany() {
   return (
     <>
       <HomeNavbar />
-      <PagesHeader source={"ourcompany.jpg"}/>
+      <PagesHeader source={"http://termoformadoscampos.imgix.net/nosotros.jpg?fit=crop&crop=focalpoint&fp-x=.5&fp-y=.2&fp-z=1.5"}/>
       <div className="section profile-content">
         <Container>
           <div className="owner">
@@ -99,7 +99,7 @@ function OurCompany() {
               <img
                   alt="..."
                   className="img-rounded img-responsive"
-                  src={require("assets/img/ourcompany2.jpg").default}
+                src={"http://termoformadoscampos.imgix.net/produccion14.jpg"}
                 />
             </Col>
           </Row>

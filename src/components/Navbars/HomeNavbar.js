@@ -120,28 +120,6 @@ function HomeNavbar() {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="https://www.facebook.com/"
-                target="_blank"
-                title="Like us on Facebook"
-              >
-                <i className="fa fa-facebook-square" />
-                <p className="d-lg-none">Facebook</p>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="https://www.instagram.com/"
-                target="_blank"
-                title="Follow us on Instagram"
-              >
-                <i className="fa fa-instagram" />
-                <p className="d-lg-none">Instagram</p>
-              </NavLink>
-            </NavItem>
-            <NavItem>
               <Button
                 className="btn-round"
                 color="danger"

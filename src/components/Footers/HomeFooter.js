@@ -68,7 +68,7 @@ function HomeFooter() {
           <Col className="mr-auto ml-auto" md="6">
             <br/>
             <p>Calle 42D Sur # 79F - 21, Bogotá D.C.</p>
-            <p>Teléfono: 3351269</p>
+            <p>Teléfono: (601) 473 3770</p>
             <p>Whatsapp: +57 304 33511269</p>
           </Col>
           <Col className="justify-content-end mt-5" md="2">

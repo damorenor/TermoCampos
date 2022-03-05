@@ -45,7 +45,7 @@ function HomeHeader() {
       <div
         style={{
           backgroundImage:
-            "url(" + require("assets/img/w1.jpg").default + ")",
+          "url(http://termoformadoscampos.imgix.net/produccion2.jpg)",
         }}
         className="page-header"
         data-parallax={true}

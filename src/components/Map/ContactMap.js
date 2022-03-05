@@ -5,8 +5,6 @@ import {
 	withGoogleMap
 } from 'react-google-maps';
 
-/*4.6207397,-74.1638988*/
-
 const ContactMap = (props) =>{
 	return(
 		<GoogleMap
