@@ -49,7 +49,7 @@ function OurCompany() {
               <img
                 alt="..."
                 className="img-circle img-no-padding img-responsive"
-                src={require("assets/img/mainlogo.png").default}
+                src={require("assets/img/mainlogo.svg").default}
               />
             </div>
             <div className="name">
