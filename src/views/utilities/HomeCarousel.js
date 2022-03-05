@@ -34,19 +34,19 @@ import {
 
 const items = [
   {
-    src: require("assets/img/c1.png").default,
+    src: "http://termoformadoscampos.imgix.net/produccion15.jpg",
     altText: "Todo tipo de empaques de plástico",
-    caption: "Todo tipo de empaques de plástico",
+    caption: "",
   },
   {
-    src: require("assets/img/c3.png").default,
+    src: "http://termoformadoscampos.imgix.net/produccion2.jpg",
     altText: "",
     caption: "",
   },
   {
-    src: require("assets/img/c4.png").default,
+    src: "http://termoformadoscampos.imgix.net/produccion11.jpg",
     altText: "Servicio de troquelado",
-    caption: "Servicio de troquelado",
+    caption: "",
   },
 ];
 

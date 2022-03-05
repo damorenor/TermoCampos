@@ -29,8 +29,14 @@ import {
 import HomeNavbar from "components/Navbars/HomeNavbar.js";
 import PagesHeader from "components/Headers/PagesHeader.js";
 import HomeFooter from "components/Footers/HomeFooter.js";
+import ServiceCard from "components/Cards/ServiceCard";
+import { services } from "./service_info";
 
 function Services() {
+
+  const serviceComponent = services.map((service,i) =>{
+    return <ServiceCard key={i} service={services[i]}/>
+  })
 
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
@@ -42,7 +48,7 @@ function Services() {
   return (
     <>
       <HomeNavbar />
-      <PagesHeader source={"w3.jpeg"}/>
+      <PagesHeader source={"http://termoformadoscampos.imgix.net/produccion18.jpg"}/>
       <div className="section profile-content">
         <Container>
           <div className="owner">
@@ -53,44 +59,13 @@ function Services() {
             </div>
           </div>
           <Row>
-            <Col className="ml-auto mr-auto " md="6">
-              <h6 className="description">Termoformado</h6>
-              <p>
-                An artist of considerable range, Jane Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.
-              </p>
-              <br />
-            </Col>
-            <Col className="ml-auto mr-auto" md="6">
-              <img
-                  alt="..."
-                  className="img-rounded img-responsive"
-                  src={require("assets/img/ourcompany2.jpg").default}
-                />
+            <Col className="ml-aut mr-auto text-center">
+              <p>En Termoformados Campos elaboramos empaques, envases y embalajes de
+              plástico para favorecer la manipulación, contención, protección, almacenamiento,
+              distribución y exhibición de los productos de nuestros clientes de acuerdo a sus necesidades. </p>
             </Col>
           </Row>
-          <br />
-          <Row>
-            <Col className="ml-auto mr-auto" md="6">
-              <img
-                  alt="..."
-                  className="img-rounded img-responsive"
-                  src={require("assets/img/ourcompany2.jpg").default}
-                />
-            </Col>
-            <Col className="ml-auto mr-auto " md="6">
-              <h6 className="description">Troquelado</h6>
-              <p>
-                An artist of considerable range, Jane Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.
-              </p>
-              <br />
-            </Col>
-          </Row>
+          {serviceComponent}
         </Container>
       </div>
       <HomeFooter />

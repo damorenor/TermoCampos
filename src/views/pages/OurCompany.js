@@ -41,7 +41,7 @@ function OurCompany() {
   return (
     <>
       <HomeNavbar />
-      <PagesHeader source={"ourcompany.jpg"}/>
+      <PagesHeader source={"http://termoformadoscampos.imgix.net/nosotros.jpg?fit=crop&crop=focalpoint&fp-x=.5&fp-y=.2&fp-z=1.5"}/>
       <div className="section profile-content">
         <Container>
           <div className="owner">
@@ -49,7 +49,7 @@ function OurCompany() {
               <img
                 alt="..."
                 className="img-circle img-no-padding img-responsive"
-                src={require("assets/img/mainlogo.png").default}
+                src={require("assets/img/mainlogo.svg").default}
               />
             </div>
             <div className="name">
@@ -62,10 +62,10 @@ function OurCompany() {
             <Col className="ml-auto mr-auto text-center" md="6">
               <h6 className="description">¿Quienes somos?</h6>
               <p>
-                An artist of considerable range, Jane Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.
+                Garantizamos la satisfacción del cliente, el bienestar de nuestros grupos
+                de interés promoviendo la mejora continua, cumpliendo con todos los requerimientos
+                legales aplicables, los requisitos establecidos por los clientes
+                y aquellos acuerdos suscritos por la organización.
               </p>
               <br />
             </Col>
@@ -75,20 +75,20 @@ function OurCompany() {
             <Col className="ml-auto mr-auto text-center" md="6">
               <h6 className="description">Nuestra Misión</h6>
               <p>
-                An artist of considerable range, Jane Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.
+                Contribuir con nuestros clientes ofreciendo soluciones innovadoras apoyando en la
+                presentación y protección de sus productos que permitan incrementar sus ventas con
+                un equipo de trabajo idóneo y experimentado, apuntando a la mejora continua de la
+                empresa hasta alcanzar la excelencia.
               </p>
               <br />
             </Col>
             <Col className="ml-auto mr-auto text-center" md="6">
               <h6 className="description">Nuestra Visión</h6>
               <p>
-                An artist of considerable range, Jane Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.
+                En el corto plazo seremos una empresa sostenible y responsable con el medio ambiente,
+                con un equipo humano comprometido con la excelencia y reconocida por los clientes
+                contribuyendo a la generación de valor agregado en sus productos.
+
               </p>
               <br />
             </Col>
@@ -99,7 +99,7 @@ function OurCompany() {
               <img
                   alt="..."
                   className="img-rounded img-responsive"
-                  src={require("assets/img/ourcompany2.jpg").default}
+                src={"http://termoformadoscampos.imgix.net/produccion14.jpg"}
                 />
             </Col>
           </Row>

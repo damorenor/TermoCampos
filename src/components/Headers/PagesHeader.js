@@ -43,7 +43,7 @@ function OurCompanyHeader({source}) {
       <div
         style={{
           backgroundImage:
-            "url(" + require("assets/img/"+source).default + ")",
+            "url(" + source+ ")",
         }}
         className="page-header page-header-xs"
         data-parallax={true}

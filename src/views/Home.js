@@ -75,14 +75,13 @@ function Home() {
             <h2 className="title">Experiencia y Calidad</h2>
             <Row>
               <Col md="2"></Col>
-              <Col md="4">
+              <Col md="5">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <img
                       alt="..."
                       src={
-                        require("assets/img/termo.png")
-                          .default
+                        "http://termoformadoscampos.imgix.net/produccion16.jpg?ar=1:1&fit=crop"
                       }
                     />
                   </div>
@@ -91,21 +90,20 @@ function Home() {
                         <CardTitle tag="h4">Termoformado</CardTitle>
                       </div>
                     <p className="card-description text-center">
-                      Teamwork is so important that it is virtually impossible
-                      for you to reach the heights of your capabilities or make
-                      the money that you want without becoming very good at it.
+                      Mediante alta temperatura y vacío se producen modificaciones
+                      en la estructura de las láminas de plástico (PVC, PET, PS)
+                      que le permiten obtener la misma forma del molde base.
                     </p>
                   </CardBody>
                 </Card>
               </Col>
-              <Col md="4">
+              <Col md="5">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <img
                       alt="..."
                       src={
-                        require("assets/img/troquel.png")
-                          .default
+                        "http://termoformadoscampos.imgix.net/produccion13.jpg?ar=1:1&fit=crop"
                       }
                     />
                   </div>
@@ -114,10 +112,9 @@ function Home() {
                         <CardTitle tag="h4">Troquelado</CardTitle>
                       </div>
                     <p className="card-description text-center">
-                      The strength of the team is each individual member. The
-                      strength of each member is the team. If you can laugh
-                      together, you can work together, silence isn’t golden,
-                      it’s deadly.
+                      Corte del plástico que resulta de la presión que se ejerce sobre
+                      el troquel compuesto de hojas de acero que proporcionan un corte
+                      limpio con la forma requerida.
                     </p>
                   </CardBody>
                 </Card>

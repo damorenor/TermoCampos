@@ -36,6 +36,7 @@ import HomeNavbar from "components/Navbars/HomeNavbar.js";
 import PagesHeader from "components/Headers/PagesHeader.js";
 import HomeFooter from "components/Footers/HomeFooter.js";
 import ContactMap from "components/Map/ContactMap";
+import {MapApi} from "../../config/default";
 
 function Contact() {
 
@@ -49,7 +50,7 @@ function Contact() {
   return (
     <>
       <HomeNavbar />
-      <PagesHeader source={"w2.jpg"}/>
+      <PagesHeader source={"http://termoformadoscampos.imgix.net/contacto.jpg"}/>
       <div className="section profile-content">
         <Container>
           <div className="owner">
@@ -62,20 +63,12 @@ function Contact() {
           <Row>
             <Col className="ml-auto mr-auto " md="4">
               <h5 className="description">Comuniquese con nosotros</h5>
-              <h6 className="description"><i className="fa fa-phone" />Teléfono:</h6> <p>277 8995</p>
+              <h6 className="description"><i className="fa fa-phone" />Teléfono:</h6> <p>(601) 473 3770</p>
               <h6 className="description"><i className="fa fa-whatsapp" />Celular:</h6> <p>+57 304 3351269</p>
               <h6 className="description"><i className="nc-icon nc-pin-3" />Dirección:</h6> <p>Calle 42D Sur # 79F - 21, Bogotá D.C.</p>
-              <br/>
-              <p>
-                An artist of considerable range, Jane Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.
-              </p>
-              <br />
             </Col>
             <ContactMap
-              googleMapURL={"https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyC-RfERI0xnmLXKezFIVs0u7PTvP7vE83c"}
+              googleMapURL={"https://maps.googleapis.com/maps/api/js?v=3.exp&key="+MapApi}
               containerElement={<Col className="ml-auto mr-auto " md="4"></Col>}
               mapElement={<div style={{height:'100%'}}/>}
               loadingElement={<p>Cargando</p>}

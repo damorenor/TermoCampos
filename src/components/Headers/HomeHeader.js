@@ -45,7 +45,7 @@ function HomeHeader() {
       <div
         style={{
           backgroundImage:
-            "url(" + require("assets/img/w1.jpg").default + ")",
+          "url(http://termoformadoscampos.imgix.net/produccion2.jpg)",
         }}
         className="page-header"
         data-parallax={true}
@@ -57,22 +57,21 @@ function HomeHeader() {
             <img
                   alt="Termoformados Campos"
                   className="img-logo img-no-padding img-responsive"
-                  src={require("assets/img/termocampos.png").default}
+                  src={require("assets/img/termocampos.svg").default}
                 />
             <h2>Termoformamos Sus ideas</h2>
             <br />
             <Button
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              href="/servicios"
               className="btn-round mr-1"
               color="neutral"
-              target="_blank"
               outline
             >
               <i className="fa fa-play" />
               Ver video
             </Button>
             <Button
-              href="/contacto" 
+              href="/nosotros" 
               className="btn-round"
               color="neutral" 
               type="button" 
