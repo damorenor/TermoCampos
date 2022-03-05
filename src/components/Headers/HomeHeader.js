@@ -62,17 +62,16 @@ function HomeHeader() {
             <h2>Termoformamos Sus ideas</h2>
             <br />
             <Button
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              href="/servicios"
               className="btn-round mr-1"
               color="neutral"
-              target="_blank"
               outline
             >
               <i className="fa fa-play" />
               Ver video
             </Button>
             <Button
-              href="/contacto" 
+              href="/nosotros" 
               className="btn-round"
               color="neutral" 
               type="button" 
