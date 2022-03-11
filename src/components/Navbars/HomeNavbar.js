@@ -111,11 +111,11 @@ function HomeNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://wa.me/573043351269"
+                href="https://wa.me/573203420409"
                 target="_blank"
                 title="Escribenos en Whatsapp!"
               >
-                <i className="fa fa-whatsapp" /> +57 304 3351269
+                <i className="fa fa-whatsapp" /> +57 320 3420409
                 <p className="d-lg-none"> Whatsapp</p>
               </NavLink>
             </NavItem>

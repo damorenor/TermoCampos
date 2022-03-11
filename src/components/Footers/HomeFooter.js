@@ -69,7 +69,7 @@ function HomeFooter() {
             <br/>
             <p>Calle 42D Sur # 79F - 21, Bogotá D.C.</p>
             <p>Teléfono: (601) 473 3770</p>
-            <p>Whatsapp: +57 304 33511269</p>
+            <p>Whatsapp: +57 320 3420409</p>
           </Col>
           <Col className="justify-content-end mt-5" md="2">
             <img
